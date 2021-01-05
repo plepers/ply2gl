@@ -1,0 +1,34 @@
+{
+  "name": "ply2gl",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plepers/ply2gl.git"
+  },
+  "keywords": [
+    "ply",
+    "3d",
+    "model",
+    "webgl",
+    "opengl"
+  ],
+  "author": "pierre lepers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/plepers/ply2gl/issues"
+  },
+  "homepage": "https://github.com/plepers/ply2gl#readme",
+  "devDependencies": {
+  },
+  "dependencies": {
+    "@types/node": "^14.14.20",
+    "parse-ply": "^0.1.0",
+    "string-to-stream": "^3.0.1"
+  }
+}
